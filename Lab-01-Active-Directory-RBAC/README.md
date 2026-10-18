@@ -1,4 +1,4 @@
-\# Lab 01 — Active Directory \& Role-Based Access Control (RBAC)
+# Lab 01 — Active Directory \& Role-Based Access Control (RBAC)
 
 
 
@@ -10,7 +10,7 @@
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -22,7 +22,7 @@ The objective was to understand how identities, security groups, and file permis
 
 
 
-\## Lab Architecture
+## Lab Architecture
 
 
 
@@ -48,7 +48,7 @@ The objective was to understand how identities, security groups, and file permis
 
 
 
-\## Active Directory Configuration
+## Active Directory Configuration
 
 
 
@@ -80,7 +80,7 @@ Created the `SG\_IT\_SUPPORT` global security group to manage access to restrict
 
 
 
-\## Role-Based Access Control
+## Role-Based Access Control
 
 
 
@@ -108,11 +108,11 @@ Validated access using separate domain user sessions on CLIENT01.
 
 
 
-\## Simulated IAM Security Incident
+## Simulated IAM Security Incident
 
 
 
-\### Scenario
+### Scenario
 
 
 
@@ -124,7 +124,7 @@ This represented an inappropriate access assignment that violated least-privileg
 
 
 
-\### Investigation
+### Investigation
 
 
 
@@ -140,7 +140,7 @@ This represented an inappropriate access assignment that violated least-privileg
 
 
 
-\### Root Cause
+### Root Cause
 
 
 
@@ -148,7 +148,7 @@ An inappropriate Active Directory security group assignment granted a Finance em
 
 
 
-\### Remediation
+### Remediation
 
 
 
@@ -164,7 +164,7 @@ An inappropriate Active Directory security group assignment granted a Finance em
 
 
 
-\## Validation Results
+## Validation Results
 
 
 
@@ -184,7 +184,7 @@ An inappropriate Active Directory security group assignment granted a Finance em
 
 
 
-\## Skills Demonstrated
+## Skills Demonstrated
 
 
 
@@ -208,7 +208,7 @@ An inappropriate Active Directory security group assignment granted a Finance em
 
 
 
-\## Lessons Learned
+## Lessons Learned
 
 
 
@@ -224,7 +224,7 @@ Effective IAM administration requires not only granting approved access but also
 
 
 
-\## Lab Disclaimer
+## Lab Disclaimer
 
 
 
@@ -238,7 +238,7 @@ This project was completed in an isolated personal homelab using fictional emplo
 
 
 
-\## Screenshot Evidence
+## Screenshot Evidence
 
 
 
@@ -248,63 +248,63 @@ access-control tests, simulated IAM incident, and remediation.
 
 
 
-\### A1 — Active Directory Structure
+### A1 — Active Directory Structure
 
-!\[Active Directory structure](screenshots/01-ad-structure.png)
-
-
-
-\### A2 — Security Group Configuration
-
-!\[Active Directory group membership](screenshots/02-ad-group-membership.png)
+![Active Directory structure](screenshots/01-ad-structure.png)
 
 
 
-\### A3 — NTFS Permissions
+### A2 — Security Group Configuration
 
-!\[NTFS permissions](screenshots/03-ntfs-permissions.png)
-
-
-
-\### A4 — Access Configuration and Testing
-
-!\[Share access test](screenshots/04-share-access-test.png)
+![Active Directory group membership](screenshots/02-ad-group-membership.png)
 
 
 
-\### A5 — IAM Access Evidence
+### A3 — NTFS Permissions
 
-!\[IAM access test](screenshots/05-iam-access-test.png)
-
-
-
-\### A6 — Additional Evidence
-
-!\[Lab evidence A6](screenshots/06-iam-evidence.png)
+![NTFS permissions](screenshots/03-ntfs-permissions.png)
 
 
 
-\### A7 — Additional Evidence
+### A4 — Access Configuration and Testing
 
-!\[Lab evidence A7](screenshots/07-iam-evidence.png)
-
-
-
-\### A8 — Additional Evidence
-
-!\[Lab evidence A8](screenshots/08-iam-evidence.png)
+![Share access test](screenshots/04-share-access-test.png)
 
 
 
-\### A9 — Additional Evidence
+### A5 — IAM Access Evidence
 
-!\[Lab evidence A9](screenshots/09-iam-evidence.png)
+![IAM access test](screenshots/05-iam-access-test.png)
 
 
 
-\### A10 — Final Evidence
+### A6 — Additional Evidence
 
-!\[Lab evidence A10](screenshots/10-iam-evidence.png)
+![Lab evidence A6](screenshots/06-iam-evidence.png)
+
+
+
+### A7 — Additional Evidence
+
+![Lab evidence A7](screenshots/07-iam-evidence.png)
+
+
+
+### A8 — Additional Evidence
+
+![Lab evidence A8](screenshots/08-iam-evidence.png)
+
+
+
+### A9 — Additional Evidence
+
+![Lab evidence A9](screenshots/09-iam-evidence.png)
+
+
+
+### A10 — Final Evidence
+
+![Lab evidence A10](screenshots/10-iam-evidence.png)
 
 
 
