@@ -1,5 +1,3 @@
-
-
 \# Identity \& Access Management (IAM) Homelab Portfolio
 
 
@@ -48,6 +46,14 @@ My objective is to develop practical IAM skills across administration, governanc
 
 
 
+
+
+\[View Lab 01 — Full Documentation](Lab-01-Active-Directory-RBAC/README.md)
+
+&#x20; 
+
+
+
 \*\*Status:\*\* Completed
 
 
@@ -65,6 +71,10 @@ My objective is to develop practical IAM skills across administration, governanc
 
 
 \### Lab 02 — Joiner, Mover, Leaver (JML) Identity Lifecycle Management
+
+
+
+\[View Lab 02 — Full Documentation](Lab-02-Identity-Lifecycle-JML/README.md)
 
 
 
@@ -122,5 +132,5 @@ Active Directory | RBAC | Least Privilege | Identity Lifecycle Management | Acce
 
 All projects are performed in a personal, isolated homelab using fictional employee identities. These exercises are educational simulations and do not represent production implementations or employment projects.
 
-&#x20; 
+&#x20;
 
