@@ -1,4 +1,4 @@
-\# Identity \& Access Management (IAM) Homelab Portfolio
+ Identity \& Access Management (IAM) Homelab Portfolio
 
 
 
@@ -6,7 +6,7 @@ Hands-on IAM projects focused on identity administration, access management, sec
 
 
 
-\## About This Portfolio
+# About This Portfolio
 
 
 
@@ -18,107 +18,106 @@ My objective is to develop practical IAM skills across administration, governanc
 
 
 
-\## Lab Environment
+# Lab Environment
 
 
 
-\- Hypervisor: Oracle VirtualBox
+- Hypervisor: Oracle VirtualBox
 
-\- Domain Controller: Windows Server 2025
+- Domain Controller: Windows Server 2025
 
-\- Client Workstation: Windows 11 Enterprise
+- Client Workstation: Windows 11 Enterprise
 
-\- Directory Services: Active Directory Domain Services (AD DS)
+- Directory Services: Active Directory Domain Services (AD DS)
 
-\- Domain: corp.example.test
+- Domain: corp.example.test
 
-\- Networking: Isolated VirtualBox internal network
+- Networking: Isolated VirtualBox internal network
 
-\- Tools: Active Directory Users and Computers, Windows PowerShell, NTFS permissions, SMB file sharing
+- Tools: Active Directory Users and Computers, Windows PowerShell, NTFS permissions, SMB file sharing
 
 
 
-\## Completed Projects
+# Completed Projects
 
 
 
-\### Lab 01 — Active Directory \& Role-Based Access Control (RBAC)
+## Lab 01 — Active Directory \& Role-Based Access Control (RBAC)
 
 
 
 
 
-\[View Lab 01 — Full Documentation](Lab-01-Active-Directory-RBAC/README.md)
+[View Lab 01 — Full Documentation](Lab-01-Active-Directory-RBAC/README.md)
+ 
 
-&#x20; 
 
 
+**Status:** Completed
 
-\*\*Status:\*\* Completed
 
 
+- Deployed Windows Server 2025 Active Directory Domain Services.
 
-\- Deployed Windows Server 2025 Active Directory Domain Services.
+- Created organizational units, user accounts, and security groups.
 
-\- Created organizational units, user accounts, and security groups.
+- Implemented NTFS and SMB permissions using least-privilege principles.
 
-\- Implemented NTFS and SMB permissions using least-privilege principles.
+- Simulated unauthorized access through incorrect security group membership.
 
-\- Simulated unauthorized access through incorrect security group membership.
+- Remediated excessive permissions and validated access restrictions.
 
-\- Remediated excessive permissions and validated access restrictions.
 
 
+## Lab 02 — Joiner, Mover, Leaver (JML) Identity Lifecycle Management
 
-\### Lab 02 — Joiner, Mover, Leaver (JML) Identity Lifecycle Management
 
 
+[View Lab 02 — Full Documentation](Lab-02-Identity-Lifecycle-JML/README.md)
 
-\[View Lab 02 — Full Documentation](Lab-02-Identity-Lifecycle-JML/README.md)
 
 
+**Status:** Completed
 
-\*\*Status:\*\* Completed
 
 
+- Provisioned and validated a new employee identity.
 
-\- Provisioned and validated a new employee identity.
+- Assigned department-based security group memberships.
 
-\- Assigned department-based security group memberships.
+- Simulated an employee transfer from IT to Finance.
 
-\- Simulated an employee transfer from IT to Finance.
+- Identified and remediated access creep.
 
-\- Identified and remediated access creep.
+- Disabled an employee account during offboarding.
 
-\- Disabled an employee account during offboarding.
+- Verified account status and group memberships using PowerShell.
 
-\- Verified account status and group memberships using PowerShell.
 
 
+# Upcoming Projects
 
-\## Upcoming Projects
 
 
+- Lab 03 — Active Directory Security Auditing
 
-\- Lab 03 — Active Directory Security Auditing
+- Lab 04 — PowerShell IAM Automation
 
-\- Lab 04 — PowerShell IAM Automation
+- Lab 05 — Group Policy \& Delegated Administration
 
-\- Lab 05 — Group Policy \& Delegated Administration
+- Lab 06 — Identity Governance \& Administration
 
-\- Lab 06 — Identity Governance \& Administration
+- Lab 07 — Microsoft Entra ID
 
-\- Lab 07 — Microsoft Entra ID
+- Lab 08 — Authentication, MFA \& Conditional Access
 
-\- Lab 08 — Authentication, MFA \& Conditional Access
+- Lab 09 — Privileged Access Management
 
-\- Lab 09 — Privileged Access Management
+- Lab 10 — Identity Security Investigations
 
-\- Lab 10 — Identity Security Investigations
 
 
-
-\## Skills Demonstrated
+# Skills Demonstrated
 
 
 
@@ -126,11 +125,10 @@ Active Directory | RBAC | Least Privilege | Identity Lifecycle Management | Acce
 
 
 
-\## Disclaimer
+# Disclaimer
 
 
 
 All projects are performed in a personal, isolated homelab using fictional employee identities. These exercises are educational simulations and do not represent production implementations or employment projects.
 
-&#x20;
 

@@ -2,11 +2,11 @@
 
 
 
-\*\*Status:\*\* Completed  
+**Status:** Completed  
 
-\*\*Environment:\*\* Windows Server 2025, Windows 11 Enterprise, Oracle VirtualBox  
+**Environment:** Windows Server 2025, Windows 11 Enterprise, Oracle VirtualBox  
 
-\*\*Focus:\*\* Identity Administration, Access Control, Least Privilege, IAM Security
+**Focus:** Identity Administration, Access Control, Least Privilege, IAM Security
 
 
 
@@ -26,25 +26,18 @@ The objective was to understand how identities, security groups, and file permis
 
 
 
+
 | Component | Configuration |
-
 |---|---|
-
 | Hypervisor | Oracle VirtualBox |
-
 | Domain Controller | DC01 — Windows Server 2025 |
-
 | Client Workstation | CLIENT01 — Windows 11 Enterprise |
-
 | Domain | corp.example.test |
-
 | Network | CORP-LAN (isolated internal network) |
-
 | DC01 IP | 192.168.50.10 |
-
 | CLIENT01 IP | 192.168.50.20 |
-
 | DNS Server | 192.168.50.10 |
+
 
 
 
@@ -56,13 +49,12 @@ Created an organizational structure under `RodriguezTechnologies` containing:
 
 
 
-\- IT
 
-\- Finance
+- IT
+- Finance
+- Human Resources
+- Operations
 
-\- Human Resources
-
-\- Operations
 
 
 
@@ -168,19 +160,15 @@ An inappropriate Active Directory security group assignment granted a Finance em
 
 
 
+
 | Test | Expected | Actual |
-
 |---|---|---|
-
 | Daniel accesses IT share | Allowed | Allowed |
-
 | Sarah accesses IT share before misconfiguration | Denied | Denied |
-
 | Sarah accesses share after unauthorized group assignment | Allowed | Allowed |
-
 | Sarah accesses share after remediation | Denied | Denied |
-
 | Final group membership review | Daniel only | Daniel only |
+
 
 
 
