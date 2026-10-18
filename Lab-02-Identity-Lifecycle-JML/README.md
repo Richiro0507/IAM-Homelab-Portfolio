@@ -1,4 +1,4 @@
-\# Lab 02 — Joiner, Mover, Leaver (JML) Identity Lifecycle Management
+# Lab 02 — Joiner, Mover, Leaver (JML) Identity Lifecycle Management
 
 
 
@@ -10,7 +10,7 @@
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -26,7 +26,7 @@ All activities were performed in an isolated Active Directory homelab.
 
 
 
-\## Lab Environment
+## Lab Environment
 
 
 
@@ -48,11 +48,11 @@ All activities were performed in an isolated Active Directory homelab.
 
 
 
-\## Phase 1 — Joiner: Employee Onboarding
+## Phase 1 — Joiner: Employee Onboarding
 
 
 
-\### Scenario
+### Scenario
 
 
 
@@ -60,7 +60,7 @@ Michael Thompson joins Rodriguez Technologies as an IT Support Specialist.
 
 
 
-\### Actions Performed
+### Actions Performed
 
 
 
@@ -80,7 +80,7 @@ Michael Thompson joins Rodriguez Technologies as an IT Support Specialist.
 
 
 
-\### Validation
+### Validation
 
 
 
@@ -92,11 +92,11 @@ Michael successfully authenticated and created Michael\_Onboarding\_Test.txt ins
 
 
 
-\## Phase 2 — Mover: Department Transfer
+## Phase 2 — Mover: Department Transfer
 
 
 
-\### Scenario
+### Scenario
 
 
 
@@ -108,7 +108,7 @@ The transfer requires granting Finance access and removing IT permissions.
 
 
 
-\### Actions Performed
+### Actions Performed
 
 
 
@@ -132,7 +132,7 @@ The transfer requires granting Finance access and removing IT permissions.
 
 
 
-\### Access Creep Finding
+### Access Creep Finding
 
 
 
@@ -148,7 +148,7 @@ This demonstrated access creep caused by incomplete entitlement removal during a
 
 
 
-\### Remediation
+### Remediation
 
 
 
@@ -164,7 +164,7 @@ This demonstrated access creep caused by incomplete entitlement removal during a
 
 
 
-\### Validation Results
+### Validation Results
 
 
 
@@ -186,11 +186,11 @@ Michael's final group memberships were Domain Users and SG\_FINANCE.
 
 
 
-\## Phase 3 — Leaver: Employee Offboarding
+## Phase 3 — Leaver: Employee Offboarding
 
 
 
-\### Scenario
+### Scenario
 
 
 
@@ -198,7 +198,7 @@ Michael's employment is terminated. The approved offboarding request requires di
 
 
 
-\### Actions Performed
+### Actions Performed
 
 
 
@@ -216,7 +216,7 @@ Michael's employment is terminated. The approved offboarding request requires di
 
 
 
-\### PowerShell Verification
+### PowerShell Verification
 
 
 
@@ -230,7 +230,7 @@ Get-ADUser -Identity michael.thompson -Properties Enabled,MemberOf |
 
 
 
-\### PowerShell Results
+### PowerShell Results
 
 
 
@@ -260,7 +260,7 @@ Windows displayed a message indicating that the account had been disabled.
 
 
 
-\## Security Concepts Demonstrated
+## Security Concepts Demonstrated
 
 
 
@@ -286,7 +286,7 @@ Windows displayed a message indicating that the account had been disabled.
 
 
 
-\## Lessons Learned
+## Lessons Learned
 
 
 
@@ -306,7 +306,7 @@ Disabling an account prevents new domain authentication, but production offboard
 
 
 
-\## Lab Disclaimer
+## Lab Disclaimer
 
 
 
@@ -314,145 +314,143 @@ This project was completed in an isolated personal homelab using fictional emplo
 
 
 
-```markdown
+## Screenshot Evidence
 
-\## Screenshot Evidence
 
 
+### Joiner: Michael and Daniel in SG\_IT\_SUPPORT
 
-\### Joiner: Michael and Daniel in SG\_IT\_SUPPORT
+![Michael and Daniel in SG\_IT\_SUPPORT](screenshots/01-joiner-it-group-membership.png)
 
-!\[Michael and Daniel in SG\_IT\_SUPPORT](screenshots/01-joiner-it-group-membership.png)
 
 
+### Joiner: Michael account settings and change password flag
 
-\### Joiner: Michael account settings and change password flag
+![Michael account settings and change password flag](screenshots/02-joiner-account-settings.png)
 
-!\[Michael account settings and change password flag](screenshots/02-joiner-account-settings.png)
 
 
+### Joiner: Michael signed in to CLIENT01
 
-\### Joiner: Michael signed in to CLIENT01
+![Michael signed in to CLIENT01](screenshots/03-joiner-successful-login.png)
 
-!\[Michael signed in to CLIENT01](screenshots/03-joiner-successful-login.png)
 
 
+### Joiner: IT share open from client
 
-\### Joiner: IT share open from client
+![IT share open from client](screenshots/04-joiner-it-share-read.png)
 
-!\[IT share open from client](screenshots/04-joiner-it-share-read.png)
 
 
+### Joiner: Michael\_Onboarding\_Test.txt created on IT share
 
-\### Joiner: Michael\_Onboarding\_Test.txt created on IT share
+![Michael\_Onboarding\_Test.txt created on IT share](screenshots/05-joiner-it-share-write.png)
 
-!\[Michael\_Onboarding\_Test.txt created on IT share](screenshots/05-joiner-it-share-write.png)
 
 
+### Joiner: Saved onboarding text file opened in Notepad
 
-\### Joiner: Saved onboarding text file opened in Notepad
+![Saved onboarding text file opened in Notepad](screenshots/06-joiner-file-content.png)
 
-!\[Saved onboarding text file opened in Notepad](screenshots/06-joiner-file-content.png)
 
 
+### Mover: Sarah assigned to SG\_FINANCE
 
-\### Mover: Sarah assigned to SG\_FINANCE
+![Sarah assigned to SG\_FINANCE](screenshots/07-mover-finance-membership.png)
 
-!\[Sarah assigned to SG\_FINANCE](screenshots/07-mover-finance-membership.png)
 
 
+### Mover: SG\_FINANCE Modify NTFS permission
 
-\### Mover: SG\_FINANCE Modify NTFS permission
+![SG\_FINANCE Modify NTFS permission](screenshots/08-mover-finance-ntfs.png)
 
-!\[SG\_FINANCE Modify NTFS permission](screenshots/08-mover-finance-ntfs.png)
 
 
+### Mover: Share administrators Full Control
 
-\### Mover: Share administrators Full Control
+![Share administrators Full Control](screenshots/09-mover-finance-share-admin.png)
 
-!\[Share administrators Full Control](screenshots/09-mover-finance-share-admin.png)
 
 
+### Mover: SG\_FINANCE Change and Read share permissions
 
-\### Mover: SG\_FINANCE Change and Read share permissions
+![SG\_FINANCE Change and Read share permissions](screenshots/10-mover-finance-share-group.png)
 
-!\[SG\_FINANCE Change and Read share permissions](screenshots/10-mover-finance-share-group.png)
 
 
+### Mover: Finance share opens for Sarah
 
-\### Mover: Finance share opens for Sarah
+![Finance share opens for Sarah](screenshots/11-mover-sarah-finance-allowed.png)
 
-!\[Finance share opens for Sarah](screenshots/11-mover-sarah-finance-allowed.png)
 
 
+### Mover: Michael denied Finance share before transfer
 
-\### Mover: Michael denied Finance share before transfer
+![Michael denied Finance share before transfer](screenshots/12-mover-michael-finance-denied-baseline.png)
 
-!\[Michael denied Finance share before transfer](screenshots/12-mover-michael-finance-denied-baseline.png)
 
 
+### Mover: Michael moved to Finance OU
 
-\### Mover: Michael moved to Finance OU
+![Michael moved to Finance OU](screenshots/13-mover-finance-ou.png)
 
-!\[Michael moved to Finance OU](screenshots/13-mover-finance-ou.png)
 
 
+### Mover: Michael retains SG\_IT\_SUPPORT after OU transfer
 
-\### Mover: Michael retains SG\_IT\_SUPPORT after OU transfer
+![Michael retains SG\_IT\_SUPPORT after OU transfer](screenshots/14-mover-old-it-membership.png)
 
-!\[Michael retains SG\_IT\_SUPPORT after OU transfer](screenshots/14-mover-old-it-membership.png)
 
 
+### Mover: Michael still opens IT share after transfer
 
-\### Mover: Michael still opens IT share after transfer
+![Michael still opens IT share after transfer](screenshots/15-mover-it-access-creep.png)
 
-!\[Michael still opens IT share after transfer](screenshots/15-mover-it-access-creep.png)
 
 
+### Mover: Michael temporarily belongs to both groups
 
-\### Mover: Michael temporarily belongs to both groups
+![Michael temporarily belongs to both groups](screenshots/16-mover-overlapping-groups.png)
 
-!\[Michael temporarily belongs to both groups](screenshots/16-mover-overlapping-groups.png)
 
 
+### Mover: IT share access denied following remediation
 
-\### Mover: IT share access denied following remediation
+![IT share access denied following remediation](screenshots/17-mover-it-denied-after-revocation.png)
 
-!\[IT share access denied following remediation](screenshots/17-mover-it-denied-after-revocation.png)
 
 
+### Mover: Finance share opens following transfer
 
-\### Mover: Finance share opens following transfer
+![Finance share opens following transfer](screenshots/18-mover-finance-allowed-after-transfer.png)
 
-!\[Finance share opens following transfer](screenshots/18-mover-finance-allowed-after-transfer.png)
 
 
+### Mover: Final Domain Users and SG\_FINANCE membership
 
-\### Mover: Final Domain Users and SG\_FINANCE membership
+![Final Domain Users and SG\_FINANCE membership](screenshots/19-mover-final-finance-only-membership.png)
 
-!\[Final Domain Users and SG\_FINANCE membership](screenshots/19-mover-final-finance-only-membership.png)
 
 
+### Leaver: ADUC confirms Michael account disabled
 
-\### Leaver: ADUC confirms Michael account disabled
+![ADUC confirms Michael account disabled](screenshots/20-leaver-account-disabled.png)
 
-!\[ADUC confirms Michael account disabled](screenshots/20-leaver-account-disabled.png)
 
 
+### Leaver: Member Of only Domain Users
 
-\### Leaver: Member Of only Domain Users
+![Member Of only Domain Users](screenshots/21-leaver-final-groups.png)
 
-!\[Member Of only Domain Users](screenshots/21-leaver-final-groups.png)
 
 
+### Leaver: Disabled-account sign-in error
 
-\### Leaver: Disabled-account sign-in error
+![Disabled-account sign-in error](screenshots/22-leaver-login-blocked.png)
 
-!\[Disabled-account sign-in error](screenshots/22-leaver-login-blocked.png)
 
 
+### Leaver: Get-ADUser Enabled False MemberOf empty
 
-\### Leaver: Get-ADUser Enabled False MemberOf empty
-
-!\[Get-ADUser Enabled False MemberOf empty](screenshots/23-leaver-powershell-verification.png)
+![Get-ADUser Enabled False MemberOf empty](screenshots/23-leaver-powershell-verification.png)
 
