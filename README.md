@@ -112,8 +112,6 @@ My objective is to develop practical IAM skills across administration, governanc
 
 
 
-- Lab 03 — Active Directory Security Auditing
-
 - Lab 04 — PowerShell IAM Automation
 
 - Lab 05 — Group Policy \& Delegated Administration
