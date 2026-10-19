@@ -94,6 +94,19 @@ My objective is to develop practical IAM skills across administration, governanc
 - Verified account status and group memberships using PowerShell.
 
 
+### Lab 03 — Active Directory Security Auditing & Investigation
+
+[View Lab 03 — Full Documentation](Lab-03-AD-Security-Auditing/README.md)
+
+**Status:** Completed
+
+- Configured advanced security auditing through a dedicated Group Policy Object.
+- Investigated Active Directory security group changes using Windows Security Event IDs 4728 and 4729.
+- Identified the administrator, affected identity, and modified security group from event logs.
+- Remediated a simulated unauthorized group membership and verified the final permissions.
+- Developed a reusable PowerShell script to parse security event XML and generate audit timelines.
+- Exported investigation evidence to CSV and verified the report contents.
+
 
 # Upcoming Projects
 
