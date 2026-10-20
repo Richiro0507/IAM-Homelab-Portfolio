@@ -1,0 +1,4 @@
+﻿EmployeeID,FirstName,LastName,SamAccountName,Department,JobTitle,Manager,Action,ApprovalStatus
+EMP1001,Jessica,Anderson,jessica.anderson,IT,IT Support Specialist,Daniel Martinez,Joiner,Approved
+EMP1002,Robert,Wilson,robert.wilson,Finance,Financial Analyst,Sarah Johnson,Joiner,Approved
+EMP1003,Emily,Chen,emily.chen,HR,HR Coordinator,HR Manager,Joiner,Pending

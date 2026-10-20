@@ -1,0 +1,4 @@
+﻿"EmployeeID","Employee","Username","Department","TargetGroup","Result"
+"EMP1001","Jessica Anderson","jessica.anderson","IT","SG_IT_SUPPORT","SKIPPED - Already a group member"
+"EMP1002","Robert Wilson","robert.wilson","Finance","SG_FINANCE","SKIPPED - Already a group member"
+"EMP1003","Emily Chen","emily.chen","HR","","BLOCKED - Approval or action invalid"

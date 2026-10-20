@@ -1,0 +1,3 @@
+﻿"Timestamp","EmployeeID","Username","TargetOU","Status"
+"2026-10-19T21:17:54.9941736-07:00","EMP1001","jessica.anderson","OU=IT,OU=RodriguezTechnologies,DC=corp,DC=example,DC=test","CREATED_AND_VERIFIED"
+"2026-10-19T21:17:55.1749995-07:00","EMP1002","robert.wilson","OU=Finance,OU=RodriguezTechnologies,DC=corp,DC=example,DC=test","CREATED_AND_VERIFIED"

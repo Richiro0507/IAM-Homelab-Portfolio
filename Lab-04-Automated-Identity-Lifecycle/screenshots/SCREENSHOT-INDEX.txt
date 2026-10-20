@@ -1,0 +1,12 @@
+Lab 4 evidence screenshots selected from our conversation.
+
+01-HR-Validation/HR-Username-Uniqueness-Validation.png  [original: 20261020-030747]
+01-HR-Validation/Onboarding-Safe-Dry-Run-Switches.png  [original: 20261020-035813]
+02-Provisioning/AD-Provisioning-Verified.png  [original: 20261020-041928]
+03-RBAC-Assignment/RBAC-PreAssignment-DryRun.png  [original: 20261020-042519]
+03-RBAC-Assignment/RBAC-Execution-Verified.png  [original: 20261020-060329]
+03-RBAC-Assignment/RBAC-Idempotency-Verified.png  [original: 20261020-060610]
+04-Approval-Controls/Pending-Approval-Account-Not-Created.png  [original: 20261020-060652]
+05-Audit-Reports/RBAC-Execution-Report-Verified.png  [original: 20261020-060420]
+
+Review every screenshot before publicly uploading. Screenshot labels describe the contents of the images. Include only lab/synthetic data.

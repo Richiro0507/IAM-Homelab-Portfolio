@@ -1,0 +1,4 @@
+﻿"Employee","Username","Department","TargetOU","TargetGroup","Result"
+"Jessica Anderson","jessica.anderson","IT","OU=IT,OU=RodriguezTechnologies,DC=corp,DC=example,DC=test","SG_IT_SUPPORT","DRY RUN - Ready to provision"
+"Robert Wilson","robert.wilson","Finance","OU=Finance,OU=RodriguezTechnologies,DC=corp,DC=example,DC=test","SG_FINANCE","DRY RUN - Ready to provision"
+"Emily Chen","emily.chen","HR","","","BLOCKED - Approval required"
