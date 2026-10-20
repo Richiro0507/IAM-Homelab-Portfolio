@@ -111,3 +111,29 @@ A successful automation workflow needs more than scripts that create accounts. I
 This is a controlled, single-domain lab using fictional HR records, not a production identity governance platform.
 
 Potential future enhancements include automated manager approvals, Microsoft Entra ID integration, scheduled lifecycle processing, automated offboarding, access reviews, and centralized logging.
+
+
+## Lab Evidence
+
+The following screenshots demonstrate the validation, provisioning, RBAC, approval controls, and reporting implemented in this project.
+
+### HR Validation
+![Username Uniqueness Validation](screenshots/01-HR-Validation/HR-Username-Uniqueness-Validation.png)
+
+![Safe Execution Switches](screenshots/01-HR-Validation/Onboarding-Safe-Dry-Run-Switches.png)
+
+### Automated Account Provisioning
+![Active Directory Provisioning Verified](screenshots/02-Provisioning/AD-Provisioning-Verified.png)
+
+### Role-Based Access Control
+![RBAC Pre-Assignment Dry Run](screenshots/03-RBAC-Assignment/RBAC-PreAssignment-DryRun.png)
+
+![RBAC Execution Verified](screenshots/03-RBAC-Assignment/RBAC-Execution-Verified.png)
+
+![RBAC Idempotency Verified](screenshots/03-RBAC-Assignment/RBAC-Idempotency-Verified.png)
+
+### Approval Enforcement
+![Pending Approval Account Not Created](screenshots/04-Approval-Controls/Pending-Approval-Account-Not-Created.png)
+
+### Audit Reporting
+![RBAC Execution Report](screenshots/05-Audit-Reports/RBAC-Execution-Report-Verified.png)
