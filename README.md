@@ -107,12 +107,24 @@ My objective is to develop practical IAM skills across administration, governanc
 - Developed a reusable PowerShell script to parse security event XML and generate audit timelines.
 - Exported investigation evidence to CSV and verified the report contents.
 
+### Lab 04 — Automated Identity Lifecycle Management
+
+[View Lab 04 — Full Documentation](Lab-04-Automated-Identity-Lifecycle/README.md)
+
+**Status: Completed**
+
+- Developed PowerShell scripts to automate Active Directory account provisioning and RBAC security group assignments.
+- Implemented HR approval validation, duplicate identity detection, and departmental OU mapping.
+- Configured safe execution controls using confirmation prompts and `-WhatIf` dry-run functionality.
+- Successfully provisioned and verified two fictional employee accounts.
+- Automated department-based security group assignments while preventing duplicate memberships.
+- Blocked an unapproved onboarding request to prevent unauthorized account creation.
+- Generated CSV validation and execution reports to document IAM activity.
+- Verified account status and security group memberships directly in Active Directory.
 
 # Upcoming Projects
 
 
-
-- Lab 04 — PowerShell IAM Automation
 
 - Lab 05 — Group Policy \& Delegated Administration
 
